@@ -8,6 +8,7 @@
 header{
     background-color: #D9D9D9;
     padding: 0.5rem 0px;
+   
 }
 .row{
     display: flex;
@@ -21,6 +22,7 @@ header{
 }
 nav ul{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 25PX;
     align-items: center;
 }
@@ -33,9 +35,11 @@ a{
 }
 header button {
     background-color: #382525;
+    display: flex;
+    flex-wrap:wrap ;
     padding: 5px 20px;
     border-radius: 10px;
-}
+}   
 header button a {
     color: white;
 }
@@ -105,10 +109,11 @@ footer{
 }
 .newsletter{
     display: flex;
+
 }
 .newsletter button{
     background-color: #E26464;
-    padding: 8px 5px;
+    padding: 4px 0px;
 }
 .copyright{
      background-color: #E26464;
