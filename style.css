@@ -91,7 +91,7 @@ footer{
 .footer-row{
     display: flex;
     justify-content: center;
-    align-ite0s: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 6px;
     padding: 30px 0px;
