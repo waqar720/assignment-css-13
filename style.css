@@ -83,7 +83,15 @@ header button a {
     row-gap: 10px;
     color: #0E0D0D;
 }
-
+#note {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dis{
+    font-size: 1.10rem;
+    font-style: oblique;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .author{ 
     text-align: right;
 }
