@@ -1,3 +1,5 @@
+@import url('./assests/fonts/OleoScript-Regular.ttf');
+
 /* css reset */
 *{
     margin: 0%;
@@ -8,7 +10,6 @@
 header{
     background-color: #D9D9D9;
     padding: 0.5rem 0px;
-   
 }
 .row{
     display: flex;
@@ -24,7 +25,6 @@ nav ul{
     display: flex;
     column-gap: 25PX;
     align-items: center;
-    flex-wrap: wrap;
 }
 li {
     list-style: none;
@@ -35,11 +35,9 @@ a{
 }
 header button {
     background-color: #382525;
-    display: flex;
-    flex-wrap:wrap ;
     padding: 5px 20px;
     border-radius: 10px;
-}   
+}
 header button a {
     color: white;
 }
@@ -83,14 +81,14 @@ header button a {
     row-gap: 10px;
     color: #0E0D0D;
 }
-#note {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+#heading{
+    font-family: "Oleo Script";
 }
-#dis{
-    font-size: 1.10rem;
+#note{
+    font-size: 1.20rem;
+    font-weight: initial;
     font-style: oblique;
-    font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "oleo script";  
 }
 .author{ 
     text-align: right;
@@ -117,11 +115,10 @@ footer{
 }
 .newsletter{
     display: flex;
-
 }
 .newsletter button{
     background-color: #E26464;
-    padding: 4px 0px;
+    padding: 8px 5px;
 }
 .copyright{
      background-color: #E26464;
